@@ -1,0 +1,29 @@
+---
+title: Integrate an IoT Device with Aagnia
+description: Quick start to connect your IoT device to Aagnia platform.
+---
+
+## Overview
+
+Connect your IoT hardware to Aagnia's SaaS portal for real-time monitoring.
+
+## Steps
+
+<Steps>
+  <Step title="Register Device">
+    Log in to `https://portal.aagnia.com`, go to IoT Devices, and click "Register".
+  </Step>
+  <Step title="Get Device Token">
+    Copy the unique token generated for your device.
+  </Step>
+  <Step title="Configure Device">
+    Use this sample code:
+    ````python
+    import requests
+    requests.post('https://api.aagnia.com/iot', json={'token': 'YOUR_TOKEN', 'data': {...}})
+    ````
+  </Step>
+  <Step title="Test Connection">
+    Check the portal dashboard for live device data.
+  </Step>
+</Steps>

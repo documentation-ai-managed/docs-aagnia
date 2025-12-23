@@ -1,0 +1,121 @@
+---
+title: Changelog
+description: Track the latest updates, new service offerings, and enhancements from Aagnia Technologies.
+---
+
+## Recent Updates
+
+<Callout kind="info">
+Stay informed about Aagnia`s evolving services in AI, IoT, and custom software development. Check this page regularly for new features and improvements.
+</Callout>
+
+<Update label="2024-10-15" description="Aagnia IoT Hub v1.5.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Introduced edge computing support for industrial IoT deployments, reducing latency by up to `50%`.
+- Added real-time analytics dashboard with customizable widgets for sensor data visualization.
+
+## Improvements
+
+- Enhanced AI model integration for predictive maintenance, improving accuracy to `95%`.
+- Optimized mobile app SDK for faster deployment on enterprise web platforms.
+
+## Bug Fixes
+
+- Resolved synchronization issues in multi-device IoT networks.
+- Fixed authentication token refresh in consulting methodology tools.
+
+````javascript
+// Example: New edge computing setup
+const iotHub = new AagniaIoTHub({
+  edgeEnabled: true,
+  apiKey: 'YOUR_API_KEY'
+});
+await iotHub.connectSensors(['sensor1', 'sensor2']);
+const analytics = await iotHub.getRealTimeData();
+console.log(analytics);
+````
+
+</Update>
+
+<Update label="2024-09-20" description="Aagnia AI Suite v2.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Launched new consulting methodology: Agile AI Transformation Framework for faster enterprise adoption.
+- Integrated generative AI capabilities for automated code generation in custom software projects.
+
+## Improvements
+
+- Upgraded IoT firmware deployment tools with zero-downtime updates.
+- Expanded service offerings to include hybrid cloud solutions for web and mobile apps.
+
+## Bug Fixes
+
+- Corrected data pipeline errors in AI-driven analytics.
+- Patched security vulnerabilities in legacy IoT endpoints.
+
+<Columns cols={2}>
+
+<Card title="Upgrade Guide" icon="settings" href="/quickstart">
+Follow steps to migrate your deployments.
+</Card>
+
+<Card title="SDK Download" icon="download" href="https://dashboard.aagnia.com/sdk">
+Get the latest SDK for AI and IoT.
+</Card>
+
+</Columns>
+
+</Update>
+
+<Update label="2024-08-10" description="Aagnia Platform v2.0.0" tags={["breaking", "feature"]}>
+
+## Breaking Changes
+
+- Deprecated old REST API endpoints; migrate to GraphQL at `https://api.aagnia.com/graphql`.
+- Updated default architecture for IoT solutions to microservices-based design.
+
+## New Features
+
+- Service expansion: Full-stack development for enterprise web, mobile, and AI consulting.
+- New dashboard at `https://dashboard.aagnia.com` for unified service management.
+
+## Improvements
+
+- Boosted performance of AI models with GPU acceleration support.
+
+</Update>
+
+## Service Expansions and Next Steps
+
+Aagnia continues to innovate with expansions in AI-driven solutions and industrial IoT. Recent updates include new consulting methodologies that help you conceptualize problems and design scalable architectures.
+
+<Steps>
+  <Step title="Review Changes" icon="book-open">
+    Scan the updates above for impacts on your projects.
+  </Step>
+  <Step title="Migrate Services" icon="settings">
+    Use the upgrade guides linked in each release.
+  </Step>
+  <Step title="Contact Support" icon="message-circle">
+    Reach out via `support@aagnia.com` for personalized assistance.
+  </Step>
+  <Step title="Provide Feedback" icon="thumbs-up">
+    Submit suggestions through the dashboard feedback form.
+  </Step>
+</Steps>
+
+<Tabs>
+  <Tab title="AI Updates" icon="brain">
+    Focus on generative AI and predictive analytics enhancements.
+  </Tab>
+  <Tab title="IoT Updates" icon="network">
+    Edge computing and real-time data processing improvements.
+  </Tab>
+</Tabs>
+
+<Callout kind="tip">
+Subscribe to `changelog@aagnia.com` for email notifications on major releases.
+</Callout>
